@@ -61,8 +61,7 @@ document.addEventListener("keydown", (e) => {
 // Initialize
 updatePages();
 
-
-if (currentPage === 0 || 29) {
+if (currentPage === 0) {
   document.getElementById("book").classList.add("single");
 } else {
   document.getElementById("book").classList.remove("single");

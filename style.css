@@ -9,22 +9,29 @@ body {
   font-family: sans-serif;
 }
 
-#book.single img#leftPage {
-  width: 100%;
-}
+/* when showing only one page (cover or last odd page) */
+/* #book.single {
+  justify-content: center;
+} */
 
-#book.single img#rightPage {
+/* #book.single {
+  width: 100%;
+} */
+
+/* #book.single img#rightPage {
   display: none;
-}
+} */
 
 #book {
   display: flex;
-  width: 7805x;
-  height: 550px;
+  width: 850px;
+  height: 600px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   border-radius: 10px;
   overflow: hidden;
   background: white;
+  justify-content: center; /* centers single pages nicely */
+  align-items: center;
 }
 
 #book img {
